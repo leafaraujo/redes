@@ -6,7 +6,7 @@ Repositório feito com o intuito de colocar os repositórios da disciplina de re
 
 ## 2º Atividade - Comunicação FTP (Requisição para serviço na web)
 - Nessa implementação que pode ser encontrada no repositório[https://github.com/raimundomarciano/dim0438_redes_atividades/tree/tcp-client] fizemos um servidor apenas do lado do cliente com a utilização de SSLSockets para garantir a segurança
-durante a comunicação. Essa aplicação do cliente faz requisições para a api OpenWeatherMap e tem as seguintes funcionalidades:
+durante a comunicação. Essa aplicação do cliente faz requisições para a api OpenWeatherMap e tem as seguintes funcionalidades (todos os dados retornados são em formato JSON, não definimos um parse para esses dados):
 - Buscar pela localização
   - Realiza a busca da cidade pelo seu nome, código do estado e código do país pela norma ISO 3166 e retorna os dados relativo ao tempo nesse local.
 - Buscar pelo código postal
